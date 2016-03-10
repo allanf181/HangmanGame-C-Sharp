@@ -15,6 +15,7 @@ namespace CreativeCub
     {
         static void Main(string[] args)
         {
+            Console.Title = "HangmanGame";
             bool a = true;
             Console.WriteLine("Bem-vindo ao Hangman(Forca)!");
             string[] listwords = new string[10];
